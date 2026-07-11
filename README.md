@@ -4,11 +4,6 @@ Software engineer and data scientist. I build full-stack systems and machine
 learning pipelines, and I self-host most of my side projects on a home NAS behind
 Cloudflare, from the Postgres schema up to the public domain.
 
-<p align="center">
-  <img height="150" alt="Bishal's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=regmibishal1&show_icons=true&hide_border=true&bg_color=00000000&title_color=3f7bd0&icon_color=3f7bd0&text_color=808080" />
-  <img height="150" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=regmibishal1&layout=compact&hide_border=true&bg_color=00000000&title_color=3f7bd0&text_color=808080" />
-</p>
-
 ## What I am building now
 
 [bishalregmi.com](https://bishalregmi.com) runs a [World Cup 2026 prediction
