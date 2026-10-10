@@ -38,8 +38,8 @@ and writing about it on [my blog](https://bishalregmi.com/blog). The
 [latest post](https://bishalregmi.com/blog/will-it-snow-tomorrow) rebuilds a
 snowfall model from my very first data science project.
 
-I'm also working on [takeout-organizer](https://github.com/regmibishal1/takeout-organizer),
-a tool to clean up Google Photos Takeout exports, which come out with the dates
+I'm also working on [takeout-organizer](https://bishalregmi.com/project/takeout-organizer)
+([code](https://github.com/regmibishal1/takeout-organizer)), a tool to clean up Google Photos Takeout exports, which come out with the dates
 and locations split off from the photos.
 
 ## How I like to work
