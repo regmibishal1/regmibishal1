@@ -26,8 +26,8 @@ of the projects here live on it.
 A grad school project comparing ResNet models for early Alzheimer's detection
 from brain scans. The surprise was that the deeper models did worse, not better.
 
-**[multisource_downloader](https://bishalregmi.com/project/multisource-downloader)**
-([code](https://github.com/regmibishal1/multisource_downloader)) -
+**[multisource-downloader](https://bishalregmi.com/project/multisource-downloader)**
+([code](https://github.com/regmibishal1/multisource-downloader)) -
 I wrote this during Nepal's 2025 anti-corruption protests to archive photos and
 videos from a few different social platforms.
 
