@@ -1,59 +1,57 @@
-<div align="center">
+# Hi, I'm Bishal
 
-# Bishal Regmi
+I'm a software engineer and data scientist. I like building things all the way
+through, from the database up to the page you click on. Most of my side projects
+run on a NAS at home instead of in the cloud. It's cheaper, and when something
+breaks there's nobody to blame but me.
 
-**Software engineer and data scientist**
+## Some things I've built
 
-Full-stack systems, machine learning pipelines, and the infrastructure that runs them.
+**[World Cup 2026 predictions](https://bishalregmi.com/world-cup)** - Over the
+summer I ran a model that simulated the World Cup 2 million times a day and
+updated as real results came in. The tournament is over now, and the site shows
+how the forecasts held up against what actually happened.
 
-[bishalregmi.com](https://bishalregmi.com) &nbsp;&middot;&nbsp; [LinkedIn](https://linkedin.com/in/bishalregmi)
+**[ShowUpMD](https://showupmd.org)** - A site for Maryland voters. Type in your
+address and it shows your districts, who represents you, who's on your ballot,
+and the bills that affect you. There's also a chat assistant that answers
+questions using the actual text of the legislation.
 
-</div>
+**[My website](https://bishalregmi.com)** ([frontend](https://github.com/regmibishal1/ResearchPortfolio-UI),
+[backend](https://github.com/regmibishal1/ResearchPortfolio-FastAPI)) - Angular,
+Spring Boot, and FastAPI, all running in Docker at home behind Cloudflare. Most
+of the projects here live on it.
 
----
+**[Alzheimer's MRI classification](https://bishalregmi.com/project/mri-classification)** -
+A grad school project comparing ResNet models for early Alzheimer's detection
+from brain scans. The surprise was that the deeper models did worse, not better.
 
-I build software end to end: the data model, the API, the front end, and the
-machine it runs on. Most of my side projects are self-hosted on a home NAS behind
-Cloudflare, which keeps me honest about deployment, monitoring, and cost. On the
-data side I care about results that hold up: point-in-time features, honest
-baselines, and validation that matches how a model will actually be used.
+**[multisource_downloader](https://github.com/regmibishal1/multisource_downloader)** -
+I wrote this during Nepal's 2025 anti-corruption protests to archive photos and
+videos from a few different social platforms.
 
-## Featured work
+## What I'm up to
 
-| Project | What it does | Built with |
-|---|---|---|
-| **[World Cup 2026 Prediction Engine](https://bishalregmi.com/world-cup)** | Calibrated XGBoost model feeding a 2-million-run Monte Carlo simulator that forecast the 2026 FIFA World Cup. It reran daily through the tournament with every played match locked in, and each snapshot is versioned so you can watch the forecast move. | Python, XGBoost, FastAPI, PostgreSQL, Angular |
-| **[ShowUpMD](https://showupmd.org)** | Civic app for Maryland voters. Enter an address to see your districts, representatives, candidates, and bills, and ask questions to a chat assistant grounded in real legislation through retrieval over pgvector. | Next.js, FastAPI, PostgreSQL, pgvector |
-| **Research Portfolio** <br> [UI](https://github.com/regmibishal1/ResearchPortfolio-UI) &middot; [API](https://github.com/regmibishal1/ResearchPortfolio-FastAPI) | The platform behind bishalregmi.com: an Angular front end, a Spring Boot auth service, and a FastAPI model server, all in Docker on home hardware behind a Cloudflare Tunnel. | Angular, Spring Boot, FastAPI, Docker |
-| **[Alzheimer's MRI Classification](https://bishalregmi.com/project/mri-classification)** | Benchmarked five ResNet depths for early Alzheimer's detection from brain MRI, with saliency maps to check which regions each model relies on. Deeper was not better. | Python, PyTorch |
-| **[multisource_downloader](https://github.com/regmibishal1/multisource_downloader)** | Media archiver that pulls images and video from several social platforms. I built it to preserve footage from Nepal's 2025 anti-corruption protests. | Python |
+Lately I've been going back to old data science projects, redoing them properly,
+and writing about it on [my blog](https://bishalregmi.com/blog). The
+[latest post](https://bishalregmi.com/blog/will-it-snow-tomorrow) rebuilds a
+snowfall model from my very first data science project.
 
-## Lately
+I'm also working on a tool to clean up Google Photos Takeout exports, which come
+out with the dates and locations split off from the photos.
 
-- Ran the World Cup engine through the full 2026 tournament; the site now grades
-  the forecasts against what actually happened.
-- Revisiting my early data science work on [the blog](https://bishalregmi.com/blog),
-  most recently [rebuilding my first snowfall model](https://bishalregmi.com/blog/will-it-snow-tomorrow)
-  with proper validation.
-- Building a tool that repairs Google Photos Takeout exports: it restores EXIF
-  metadata from the JSON sidecars and de-duplicates by perceptual hash, without
-  ever touching the originals.
+## How I like to work
 
-## How I work
+I'd rather say "this doesn't work" than show off a model that only looks good
+because it accidentally peeked at the answer. So I spend a lot of time on
+boring things: making sure the data is what it claims to be, comparing against
+simple baselines, and testing the way the model will actually be used.
 
-- **Correctness before metrics.** No look-ahead, walk-forward validation, and
-  baselines a model has to beat before it counts.
-- **Honest results.** I would rather report a true null result than ship a leaky
-  model that only looks good.
-- **Own the whole path.** Typed APIs, reproducible pipelines, small reviewable
-  commits, and a deployment I can rebuild from scratch.
+## Tools I reach for
 
-## Toolbox
+Python, Java, TypeScript, C#, and SQL. FastAPI, Spring Boot, Angular, React, and
+Next.js for apps; pandas, scikit-learn, XGBoost, and PyTorch for data work;
+Postgres, Docker, and Cloudflare to run it all.
 
-| Area | Tools |
-|---|---|
-| Languages | Python, Java, TypeScript, C#, SQL |
-| Backend | FastAPI, Spring Boot, .NET |
-| Front end | Angular, React, Next.js |
-| Data and ML | pandas, scikit-learn, XGBoost, PyTorch, pgvector |
-| Infrastructure | PostgreSQL, Docker, Cloudflare, AWS, Linux |
+You can find me at [bishalregmi.com](https://bishalregmi.com) or on
+[LinkedIn](https://linkedin.com/in/bishalregmi).
